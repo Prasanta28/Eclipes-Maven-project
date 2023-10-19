@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>PATS</groupId>
+  <artifactId>QADept</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	  
+ <!-- https://mvnrepository.com/artifact/org.apache.maven/maven-core -->
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-core</artifactId>
+    <version>3.9.4</version>
+</dependency>	 
+
+<!-- Selenium WebDriver -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.141.59</version> <!-- Use the latest version available -->
+    </dependency>
+    
+    <!-- WebDriver implementation for Chrome -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-chrome-driver</artifactId>
+        <version>3.141.59</version> <!-- Use the same version as selenium-java -->
+    </dependency>
+    
+    <!-- WebDriver implementation for Firefox -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-firefox-driver</artifactId>
+        <version>3.141.59</version> <!-- Use the same version as selenium-java -->
+    </dependency> 
+   
+
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>2.0.1</version> 
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>2.0.0-alpha0</version>
+    <scope>runtime</scope>
+</dependency>
+    
+    <!-- TestNG -->
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>7.6.0</version>
+  <scope>test</scope>
+</dependency>
+
+
+ 
+
+  </dependencies>
+ 
+
+
+</project>
